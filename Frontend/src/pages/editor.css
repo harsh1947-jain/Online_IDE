@@ -1,0 +1,38 @@
+.left
+{
+    width:50%;
+    height: 100vh;
+}
+.out
+{
+    width:50%;
+    height: 100vh;
+
+}
+.outer
+{
+   display: flex; 
+   
+}
+.conta
+{
+    /* styles.css */
+
+/* Flex container with specific styles */
+
+    display: flex;                /* Equivalent to 'flex' in Tailwind */
+  align-items: center ; /* Equivalent to 'items-center' */
+    justify-content: space-between; /* Equivalent to 'justify-between' */
+    gap: 8px;                     /* Equivalent to 'gap-2' (0.5rem = 8px) */
+                 /* Equivalent to 'w-full' */
+    background-color: #1A1919;    /* Equivalent to 'bg-[#1A1919]' */
+    height: 50px;                 /* Equivalent to 'h-[50px]' */
+    padding-left: 40px;           /* Equivalent to 'px-[40px]' (left padding) */
+    padding-right: 40px;          /* Equivalent to 'px-[40px]' (right padding) */
+
+  
+}
+.tab
+{
+    cursor: pointer;
+}

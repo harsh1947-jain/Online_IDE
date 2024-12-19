@@ -1,0 +1,103 @@
+.listcard {
+    margin-bottom: 8px;        /* Equivalent to mb-2 (Tailwind's mb-2 is 0.5rem, which is 8px) */
+    width: 100%;               /* Equivalent to w-[full] */
+    display: flex;             /* Equivalent to flex */
+    align-items: center;       /* Equivalent to items-center */
+    
+    padding: 10px;             /* Equivalent to p-[10px] */
+    background-color: #141414; /* Equivalent to bg-[#141414] */
+    cursor: pointer;           /* Equivalent to cursor-pointer */
+    border-radius: 0.5rem;     /* Equivalent to rounded-lg (Tailwind's rounded-lg is 0.5rem) */
+    transition: background-color 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .listcard:hover {
+    background-color: #202020; /* Equivalent to hover:bg-[#202020] */
+  }
+  .im
+  {
+    width: 100px;
+    margin-left: 40px;
+  }
+  .cont
+  {
+    gap: 4px;
+  }
+  h3
+  {
+    font-size: 25px;
+  }
+  h4
+  {
+    font-size: 15px;
+    color: grey;
+  }
+  .about
+  {
+    margin-right: 70px;
+    margin-left: 80px;
+  }
+  .del
+  {
+    width: 40px;
+   margin-left: 700px;
+  cursor: pointer;
+  }
+
+  /* Modal Overlay */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Main Modal Box */
+.mainModal {
+  width: 25vw;
+  height: 25vh;
+  background-color: #141414;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+/* Heading */
+.heading {
+  font-size: 1.875rem; /* Equivalent to 3xl */
+  color: white;
+}
+
+/* Button Container */
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Delete Button */
+.deleteButton {
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #FF4343;
+  color: white;
+  cursor: pointer;
+  min-width: 49%;
+}
+
+/* Cancel Button */
+.cancelButton {
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #1A1919;
+  color: white;
+  cursor: pointer;
+  min-width: 49%;
+}

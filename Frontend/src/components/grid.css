@@ -1,0 +1,88 @@
+.grid
+{
+    background-color:#0D0D0D;
+    width: 300px;
+    height:250px;
+    border-radius: 5px;
+    box-shadow: grey;
+    margin: 7%;
+    cursor: pointer;
+    padding: 10px;
+}
+.codeim
+{
+    width:50px;
+    height: 60px;
+
+}
+.dele
+{
+    margin-top: 70%;
+    margin-left: 10%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.grid{
+    display: flex;
+    margin-left: 10px;
+}
+
+ /* Modal Overlay */
+ .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Main Modal Box */
+  .mainModal {
+    width: 25vw;
+    height: 25vh;
+    background-color: #141414;
+    border-radius: 16px;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 1.875rem; /* Equivalent to 3xl */
+    color: white;
+  }
+  
+  /* Button Container */
+  .buttonContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Delete Button */
+  .deleteButton {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #FF4343;
+    color: white;
+    cursor: pointer;
+    min-width: 49%;
+  }
+  
+  /* Cancel Button */
+  .cancelButton {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #1A1919;
+    color: white;
+    cursor: pointer;
+    min-width: 49%;
+  }
+  

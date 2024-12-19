@@ -1,0 +1,47 @@
+.logo-img
+{
+    width: 400px;
+    left: 40%;
+}
+.contain
+{
+
+        height: 100vh; /* Full width of the viewport */
+        min-height: 100vh; /* Minimum height of the viewport */
+        display: flex; /* Flexbox layout */
+        align-items: center; /* Align items vertically in the center */
+        justify-content: space-between; /* Distribute items evenly with space between */
+        padding-left: 100px; /* 100px padding on the left */
+        padding-right: 100px; /* 100px padding on the right */
+   
+      
+}
+.left
+{
+    width: 40%;
+}
+.form-a
+{
+    width: 100%;
+    margin: 5%;
+}
+p
+{
+    color: grey;
+}
+.right
+{
+    width: 55%;
+}
+
+.side-img {
+    height: 90vh; /* Full viewport height */
+    width: 50vw;   /* Full width of the container */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    margin: 10px;
+  }
+  .er{
+    color: red;
+    margin: 2px;
+  }
+  
